@@ -1,8 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function DefaultLayout() {
   return (
     <div>
+      <Navbar />
       {/* imposto già il segnaposto per dopo per la navbar */}
       <Outlet />
     </div>
