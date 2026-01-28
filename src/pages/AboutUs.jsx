@@ -1,7 +1,7 @@
 function AboutUs() {
   return (
     <>
-      <h1>ciaoo</h1>
+      <h1>check aboutus</h1>
     </>
   );
 }
