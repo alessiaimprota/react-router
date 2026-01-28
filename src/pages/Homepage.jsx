@@ -1,7 +1,7 @@
 function Homepage() {
   return (
     <>
-      <h1>check home</h1>
+      <h1>Homepage Shop</h1>
     </>
   );
 }

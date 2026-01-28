@@ -11,24 +11,22 @@ body {
 
 .navbar {
   background-color: rgb(248, 238, 224);
-
-  height: 100px;
+  height: 80px;
 }
 
 .navbar ul {
   height: 100%;
   display: flex;
-  justify-content: space-around;
   list-style: none;
   align-items: center;
 }
 .navbar li a {
+  padding: 0 20px;
   text-decoration: none;
   color: burlywood;
-}
-
-.navbar li a .active {
-  color: rgb(156, 123, 79);
+  &.active {
+    color: rgb(161, 118, 61);
+  }
 }
 
 .products {
@@ -43,4 +41,12 @@ body {
 
 .card img {
   width: 200px;
+}
+
+.card h3 {
+  margin: 15px;
+}
+
+.price {
+  color: brown;
 }

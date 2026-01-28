@@ -5,7 +5,10 @@ function Card({ product }) {
       <img src={image} alt="picture" />
       <h3>{title}</h3>
       <p>{description}</p>
-      <div className="price">{price}</div>
+      <div>
+        {" "}
+        Il prezzo è: <span className="price">{price}$</span>
+      </div>
     </div>
   );
 }
