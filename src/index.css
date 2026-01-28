@@ -10,19 +10,19 @@ body {
 }
 
 h1 {
-  margin: 50px;
+  margin: 20px;
 }
 
 .welcome {
   font-size: 30px;
-  margin: 0 50px;
+  margin: 20px;
 }
 .navbar {
   background-color: rgb(240, 223, 200);
   height: 80px;
 }
 
-.navbar ul {s
+.navbar ul {
   height: 100%;
   display: flex;
   list-style: none;
@@ -57,4 +57,23 @@ h1 {
 
 .price {
   color: brown;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.jumbo {
+  position: relative;
+}
+
+.label-jumbo {
+  background-color: rgb(240, 223, 200);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 50px;
+  opacity: 0.8;
+  padding: 20px;
 }
