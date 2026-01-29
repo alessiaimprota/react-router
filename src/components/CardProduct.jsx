@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Card({ product }) {
-  const { image, title, description, price } = product;
+  const { image, title, description, price, id } = product;
   return (
     <div className="card">
       <img src={image} alt="picture" />
@@ -11,7 +11,7 @@ function Card({ product }) {
         {" "}
         Il prezzo è: <span className="price">{price}$</span>
       </div>
-      <Link to={"/products/4"}> Clicca qui!</Link>
+      <Link to={`/products/${id}`}> Clicca qui!</Link>
     </div>
   );
 }
