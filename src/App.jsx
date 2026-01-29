@@ -15,10 +15,10 @@ export default function App() {
       <Routes>
         <Route element={<DefaultLayout />}>
           {/* importo qua poi le singole pagine e i loro percorsi di navigaizone */}
-          <Route path="/" element={<Homepage />} />
+          <Route index element={<Homepage />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/products">
-            <Route path="" element={<Products />} />
+            <Route index element={<Products />} />
             <Route path=":id" element={<ProductDetail />} />
           </Route>
         </Route>
